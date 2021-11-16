@@ -1,0 +1,12 @@
+public static boolean isVowel(String input)
+{
+    
+    if (input.length()!=1)
+        return false;
+    
+
+    char lett = Character.toLowerCase(input.charAt(0));
+    return (lett == 'a' || lett == 'e' || lett == 'i' || lett == 'o' || lett == 'u');
+    
+    
+}
