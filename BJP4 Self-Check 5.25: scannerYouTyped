@@ -1,7 +1,0 @@
-System.out.print("Type a number: ");
-Scanner console = new Scanner(System.in);
-
-if (console.hasNextInt())
-  System.out.print("You typed the integer " + console.nextInt());
-else if (console.hasNextDouble())
-    System.out.print("You typed the real number " + console.nextDouble());
