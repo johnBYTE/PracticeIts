@@ -1,0 +1,36 @@
+
+y < x	y == 0	count > 0
+Point A	
+SOMETIMES
+
+SOMETIMES
+
+NEVER
+
+Point B	
+ALWAYS
+
+SOMETIMES
+
+SOMETIMES
+
+Point C	
+ALWAYS
+
+ALWAYS
+
+ALWAYS
+
+Point D	
+SOMETIMES
+
+SOMETIMES
+
+SOMETIMES
+
+Point E	
+NEVER
+
+SOMETIMES
+
+SOMETIMES
