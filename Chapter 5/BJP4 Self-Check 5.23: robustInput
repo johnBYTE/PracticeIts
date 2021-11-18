@@ -1,0 +1,32 @@
+Scanner console = new Scanner(System.in);
+
+int age = 0;
+double gpa = 0;
+
+while (age == 0)
+{  
+    System.out.print("Type your age: ");
+    if (console.hasNextInt())
+    {
+        age = console.nextInt();
+    }
+    else
+    {
+        console.next();
+    }
+}
+
+while (gpa == 0)
+{  
+    System.out.print("Type your GPA: ");
+    if (console.hasNextDouble())
+    {
+        gpa = console.nextDouble();
+    }
+    else
+    {
+        console.next();
+    }
+}
+
+System.out.println("age = " + age + ", GPA = " + gpa);
